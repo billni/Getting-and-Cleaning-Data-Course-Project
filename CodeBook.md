@@ -1,6 +1,6 @@
 
 # Getting and Cleaning Data Course Project
-=============
+====
 ##Input Data
 The run_analysis.R script read data present in 'UCI HAR Dataset' sub-directory.
 
