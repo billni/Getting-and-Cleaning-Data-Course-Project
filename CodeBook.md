@@ -34,6 +34,7 @@ All the above features has been normalized and bounded within [-1,1] in the orig
 ## Transformations
 
 The script performs the following operations:
+
     The process() function merged to train and test data set. Every data set was processed to be a data table object.  
     The action() function is a threhold , it assemble train and test data set to become a tidy data set. 
     The tidy data set with the average of each variable for each activity and each subject was written in the output file "tidydata.txt". 
