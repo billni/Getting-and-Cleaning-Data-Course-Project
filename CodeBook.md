@@ -1,9 +1,9 @@
-CodeBook
-Input Data
+#CodeBook
 
+#Input Data
 The run_analysis.R script read data present in 'UCI HAR Dataset' sub-directory.
-Output Data
 
+#Output Data
 The run_analysis.R script generates a tidy data set written in the output file 'avg_dataset.txt' containing the average of the mean and standard deviation for each measurements, originally sampled from the 3-axial accelerometer and gyroscope, grouped by activity and subject.
 
 The output file contains the following variables:
