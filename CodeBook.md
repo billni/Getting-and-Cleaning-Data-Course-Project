@@ -27,7 +27,7 @@ The output file contains the following variables:
 
 where each variable has the three components along the x,y,z axis and the corresponding magnitude.
 
-A total of 66 variables  and 180 observations are present in the final data set.
+A total of 68 variables and 180 observations are present in the final data set.
 
 All the above features has been normalized and bounded within [-1,1] in the original data set, so no unit of measurements is applicable to them.
 
