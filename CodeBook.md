@@ -11,8 +11,8 @@ The run_analysis.R script produce a tidy data set written in the output file 'ti
 
 The output file contains the following variables:
 
-    the subject id of the person that performed the activity
-    a description of the activity that was performed
+    the subject represent the person that performed the activity.
+    the label represent a description of the activity that was performed.
 
     the mean and standard deviation for each of the following measurements:
 
