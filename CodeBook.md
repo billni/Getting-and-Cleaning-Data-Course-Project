@@ -1,9 +1,10 @@
-#CodeBook
 
-#Input Data
+# Getting and Cleaning Data Course Project
+=============
+##Input Data
 The run_analysis.R script read data present in 'UCI HAR Dataset' sub-directory.
 
-#Output Data
+##Output Data
 The run_analysis.R script generates a tidy data set written in the output file 'avg_dataset.txt' containing the average of the mean and standard deviation for each measurements, originally sampled from the 3-axial accelerometer and gyroscope, grouped by activity and subject.
 
 The output file contains the following variables:
@@ -32,7 +33,7 @@ A total of 66 variables are present in the final data set.
 
 All the above features has been normalized and bounded within [-1,1] in the original data set, so no unit of measurements is applicable to them.
 
-#Transformations
+## Transformations
 
 The script performs the following operations stating from the original UCI data:
 
