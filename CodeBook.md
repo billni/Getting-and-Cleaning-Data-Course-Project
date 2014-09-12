@@ -31,7 +31,8 @@ Moreover the magnitude of the following variable is provided in the final data s
 A total of 66 variables are present in the final data set.
 
 All the above features has been normalized and bounded within [-1,1] in the original data set, so no unit of measurements is applicable to them.
-Transformations
+
+#Transformations
 
 The script performs the following operations stating from the original UCI data:
 
