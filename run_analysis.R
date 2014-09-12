@@ -56,8 +56,8 @@
 		
 		# Write raw dataset and tidy dataset to files
 		setwd('../../')
-		write.csv(rawDataset, file = 'rawdata.csv', row.names = FALSE)
-		write.csv(tidyDataset, file = 'tidydata.csv', row.names = FALSE, quote = FALSE)
+		write.table(rawDataset, file = 'rawdata.txt', row.names = FALSE)
+		write.table(tidyDataset, file = 'tidydata.txt', row.names = FALSE, quote = FALSE)
 
     # Return tidy dataset
 		tidyDataset	
