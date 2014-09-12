@@ -27,15 +27,13 @@ The output file contains the following variables:
 
 where each variable has the three components along the x,y,z axis and the corresponding magnitude.
 
-A total of 68 variables and 180 observations are present in the final data set.
+A total of 66 variables  and 180 observations are present in the final data set.
 
 All the above features has been normalized and bounded within [-1,1] in the original data set, so no unit of measurements is applicable to them.
 
 ## Transformations
 
 The script performs the following operations:
-    The process() function merged to train and test data set. Every data set was processed to be a data table object.
-    
-    The action() function is a threhold , it assemble train and test data set to become a tidy data set. 
-    
-    The tidy data set with the average of each variable for each activity and each subject was written in the output file. The format of the output file is described in the 'Output Data' section of this CodeBook.     
+1. The process() function merged to train and test data set. Every data set was processed to be a data table object.  
+2. The action() function is a threhold , it assemble train and test data set to become a tidy data set. 
+3. The tidy data set with the average of each variable for each activity and each subject was written in the output file "tidydata.txt". 
